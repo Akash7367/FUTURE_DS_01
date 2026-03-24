@@ -28,3 +28,21 @@ After downloading, please extract the `online_retail.csv` file and place it in t
 
 ## Key Insights & Recommendations
 The primary insights, answering questions such as *Which products generate the most revenue?* and *Where should the business focus to grow faster?*, are thoroughly documented within the "Business Insights" tab of the interactive Streamlit dashboard.
+
+## Exploratory Data Analysis Visualizations
+Here are some of the key plots and graphs generated during the EDA phase:
+
+### Plot 1
+![Plot 1](images/plot_1.png)
+
+### Plot 2
+![Plot 2](images/plot_2.png)
+
+### Plot 3
+![Plot 3](images/plot_3.png)
+
+### Plot 4
+![Plot 4](images/plot_4.png)
+
+### Plot 5
+![Plot 5](images/plot_5.png)
