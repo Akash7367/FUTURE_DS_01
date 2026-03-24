@@ -32,17 +32,24 @@ The primary insights, answering questions such as *Which products generate the m
 ## Exploratory Data Analysis Visualizations
 Here are some of the key plots and graphs generated during the EDA phase:
 
-### Plot 1
-![Plot 1](images/plot_1.png)
+### 1. Monthly Revenue & Estimated Profit Trend
+This line chart visualizes the business's performance over time. It tracks both total monthly revenue (circles) and an estimated profit margin (squares) to help identify seasonal patterns and overall growth trends.
+![Monthly Trend](images/plot_1.png)
 
-### Plot 2
-![Plot 2](images/plot_2.png)
+### 2. Revenue Heatmap: Day of Week vs. Hour of Day
+By mapping revenue generation across days and hours, this heatmap pinpoints peak shopping times. Darker areas indicate higher sales volume, allowing for optimized staff scheduling and targeted marketing campaigns.
+![Revenue Heatmap](images/plot_2.png)
 
-### Plot 3
-![Plot 3](images/plot_3.png)
+### 3. Order Value Distributions
+A pair of histograms showing the distribution of customer spending habits.
+- **Average Order Value**: Tracks the typical spend per item within an invoice.
+- **Total Order Value**: Displays the overall shape of total invoice amounts across the customer base.
+![Order Value Distribution](images/plot_3.png)
 
-### Plot 4
-![Plot 4](images/plot_4.png)
+### 4. Impact of Returns and Cancellations
+This pie chart breaks down the total revenue into completed (gained) revenue versus revenue lost due to returned or cancelled orders. It highlights the overall impact of product returns on the business bottom line.
+![Returns Impact](images/plot_4.png)
 
-### Plot 5
-![Plot 5](images/plot_5.png)
+### 5. Top 10 Countries by Estimated Profit
+A bar chart highlighting the most profitable international markets. It lists the top 10 countries generating the highest estimated profit, which is crucial for guiding international expansion efforts.
+![Top Profit Countries](images/plot_5.png)
