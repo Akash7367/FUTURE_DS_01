@@ -96,13 +96,12 @@ st.sidebar.markdown("## 🔍 Filters")
 # Date range
 min_date = df_raw['InvoiceDate'].min().date()
 max_date = df_raw['InvoiceDate'].max().date()
-date_range = st.sidebar.date_input("Date Range", [min_date, max_date], min_value=min_date, max_value=max_date)
-if len(date_range) == 2:
-    start_date, end_date = date_range
-elif len(date_range) == 1:
-    start_date = end_date = date_range[0]
-else:
-    start_date, end_date = min_date, max_date
+
+start_date = st.sidebar.date_input("Start Date", min_date, min_value=min_date, max_value=max_date)
+end_date = st.sidebar.date_input("End Date", max_date, min_value=min_date, max_value=max_date)
+
+if start_date > end_date:
+    st.sidebar.error("Error: Start Date must be before End Date.")
 
 # Country Filter
 all_countries = sorted(df_raw['Country'].unique())
