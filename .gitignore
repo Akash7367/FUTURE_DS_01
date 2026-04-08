@@ -1,6 +1,7 @@
 # Ignore large dataset files
 data/online_retail.csv
 data/*.csv
+!data/online_retail_cleaned.csv
 
 # Python
 __pycache__/
